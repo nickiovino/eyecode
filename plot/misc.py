@@ -7,7 +7,7 @@ from matplotlib import ticker as ticker
 from matplotlib import pyplot
 from mpl_toolkits.mplot3d import Axes3D
 from kelly_colors import kelly_colors
-from pandas.tools.plotting import boxplot_frame_groupby
+from pandas.plotting import boxplot
 
 PIE_COLORS = [
     "#33FDC0",
